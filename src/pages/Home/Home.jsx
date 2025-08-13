@@ -17,14 +17,13 @@ const Home = () => {
       <section id="home" className="min-h-screen flex flex-col items-center justify-center bg-blue-00">
         <div><span className='text-2xl font-semibold'>Hello <span className='text-2xl font-semibold'>{text}</span><Cursor></Cursor></span></div>
         
-        <div className='text-center grid grid-cols-2 gap-20 mt-8'>
-
+        <div className='text-center grid grid-cols-1 md:grid-cols-2 place-items-center gap-8 md:gap-16 mt-8'>
           <div>
-            <img className='h-[250px] w-full rounded-full' src={img} alt="" />
+            <img className='h-[250px] w-full rounded-full' src={img} alt="Image of Anika Tabassum" />
           </div>
-          <div>
-            
-            <p className='text-lg '>I can make beautiful website</p>
+
+          <div className='flex flex-col gap-2'>        
+            <div><p className='text-lg '>I can make beautiful website</p></div>
 
             <div className='flex justify-center items-center gap-2'>
               <Link to='https://github.com/AnikaTabassum786' target="_blank"
@@ -33,20 +32,20 @@ const Home = () => {
                 rel="noopener noreferrer"><div className="badge badge-neutral badge-outline">LinkedIn</div></Link>
             </div>
 
-           <a 
+            <div>
+               <a 
               href={resume} 
               download="Anika_Tabassum_Resume.pdf" 
               className='btn'
             >
               Resume
             </a>
-
+            </div>
+          
           </div>
-
         </div>
+
       </section>
-
-
 
       <About></About>
     </div>

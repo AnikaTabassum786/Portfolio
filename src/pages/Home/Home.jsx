@@ -1,17 +1,56 @@
 import React from 'react';
+import About from '../About/About';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import { Link } from 'react-router';
+import img from '../../assets/images/profile.jpeg'
+import resume from '../../assets/resume.pdf'
+
 
 const Home = () => {
-    return (
-        <div>
-           <section id="home" className="min-h-screen flex items-center justify-center bg-blue-200">
-        <h1 className="text-4xl">Home Section</h1>
+  const [text] = useTypewriter({
+    words: ['I am Anika Tabassum', 'I am MERN Stack Developer'],
+    loop: 0
+  })
+  return (
+    <div>
+      {/* flex items-center justify-center */}
+      <section id="home" className="min-h-screen flex flex-col items-center justify-center bg-blue-00">
+        <div><span className='text-2xl font-semibold'>Hello <span className='text-2xl font-semibold'>{text}</span><Cursor></Cursor></span></div>
+        
+        <div className='text-center grid grid-cols-2 gap-20 mt-8'>
+
+          <div>
+            <img className='h-[250px] w-full rounded-full' src={img} alt="" />
+          </div>
+          <div>
+            
+            <p className='text-lg '>I can make beautiful website</p>
+
+            <div className='flex justify-center items-center gap-2'>
+              <Link to='https://github.com/AnikaTabassum786' target="_blank"
+                rel="noopener noreferrer"><div className="badge badge-neutral badge-outline">Github</div></Link>
+              <Link to='https://www.linkedin.com/in/anika-tabassum-1b62541b1/' target="_blank"
+                rel="noopener noreferrer"><div className="badge badge-neutral badge-outline">LinkedIn</div></Link>
+            </div>
+
+           <a 
+              href={resume} 
+              download="Anika_Tabassum_Resume.pdf" 
+              className='btn'
+            >
+              Resume
+            </a>
+
+          </div>
+
+        </div>
       </section>
 
-      <section id="about" className="min-h-screen flex items-center justify-center bg-green-200">
-        <h1 className="text-4xl">About Section</h1>
-      </section>
-        </div>
-    );
+
+
+      <About></About>
+    </div>
+  );
 };
 
 export default Home;

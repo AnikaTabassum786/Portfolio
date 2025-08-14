@@ -4,6 +4,8 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import { Link } from 'react-router';
 import img from '../../assets/images/profile.jpeg'
 import resume from '../../assets/resume.pdf'
+import Skill from '../Skill/Skill';
+import Education from '../Education/Education';
 
 
 const Home = () => {
@@ -48,6 +50,9 @@ const Home = () => {
       </section>
 
       <About></About>
+      <Skill></Skill>
+      <Education></Education>
+      
     </div>
   );
 };

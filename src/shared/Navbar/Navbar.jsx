@@ -104,6 +104,22 @@ const Navbar = () => {
           About
         </a>
       </li>
+      <li>
+        <a
+          href="#skill"
+          className={activeSection === "skill" ? "underline font-bold" : ""}
+        >
+          Skill
+        </a>
+      </li>
+      <li>
+        <a
+          href="#education"
+          className={activeSection === "education" ? "underline font-bold" : ""}
+        >
+          Education
+        </a>
+      </li>
     </>
   );
 

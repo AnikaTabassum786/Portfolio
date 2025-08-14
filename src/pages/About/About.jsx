@@ -5,18 +5,67 @@ const About = () => {
     <div>
       <section id="about" className="min-h-screen flex items-center justify-center bg-green-00">
         {/* <h1 className="text-4xl">About Section</h1> */}
-        {/* <p>I am an aspiring Full Stack Developer with a strong passion for building dynamic and user-friendly applications. After mastering frontend development, my next goal is to dive into backend technologies to become a well-rounded developer. Alongside my technical growth, I aim to strengthen my foundation in core programming concepts, including data structures, algorithms, and problem-solving skills.
+        {/* <div className='flex flex-col gap-2 px-4 py-8 rounded-md shadow-xl'>
 
-I am particularly interested in Python and plan to explore its vast potential in both web development and beyond. Beyond coding, I have a deep interest in research and aspire to publish research papers in the future, combining my technical expertise with innovative thinking.</p> */}
+            <p className='font-normal text-lg'>
+              I am Anika Tabassum. I completed my BSc(Computer Science Engeering) from (American International University and Bangladesh)AIUB. 
+            </p>
+
+            <p className='font-normal text-lg'>
+              Recently I completed a web development course from programming Hero. Which helps me to become a strong frontend developer.  
+            </p>
+          <p className='font-normal text-lg'>I am an aspiring Full Stack Developer with a strong passion for building dynamic and user-friendly applications. My next goal is to dive into backend technologies to become a full-stack developer.</p>
+          
+           <p className='font-normal text-lg'>Alongside my technical growth, I aim to strengthen my foundation in core programming concepts, including data structures, algorithms, and problem-solving skills.</p>
+
+          
+          <p className='font-normal text-lg'>I am particularly interested in Python and plan to explore its vast potential in both web development and beyond. </p>
+
+          <p className='font-normal text-lg'>Beyond coding, I have a deep interest in research and aspire to publish research papers in the future, combining my technical expertise with innovative thinking. One of my paper is piblished is spriger nature</p>
+
+          <p className='font-normal text-lg'>Reading story book, gardening  is my hobbies. These gives me a mental relief. I like to design interior. In my free time create a new thing to organize my room more beautiful.</p>
+
+          <p>I am slightly introver. In new environment it take time to cope up with me</p>
+          </div> */}
+
+          <div className='flex flex-col gap-2 px-8 py-8 rounded-md shadow-xl'>
+
+  <p className='font-normal text-lg'>
+    I am Anika Tabassum. I completed my BSc in Computer Science and Engineering from the American International University-Bangladesh (AIUB).
+  </p>
+
+  <p className='font-normal text-lg'>
+    Recently, I completed a web development course from Programming Hero, which has helped me become a strong frontend developer.
+  </p>
+
+  <p className='font-normal text-lg'>
+    I am an aspiring Full Stack Developer with a strong passion for building dynamic and user-friendly applications. My next goal is to dive into backend technologies to become a full-stack developer.
+  </p>
+
+  <p className='font-normal text-lg'>
+    Alongside my technical growth, I aim to strengthen my foundation in core programming concepts, including data structures, algorithms, and problem-solving skills.
+  </p>
+
+  <p className='font-normal text-lg'>
+    I am particularly interested in Python and plan to explore its vast potential in both web development and other fields.
+  </p>
+
+  <p className='font-normal text-lg'>
+    Beyond coding, I have a deep interest in research and aspire to publish research papers in the future, combining my technical expertise with innovative thinking. One of my papers has been published in Springer Nature.
+  </p>
+
+  <p className='font-normal text-lg'>
+    Reading storybooks and gardening are my hobbies, as they give me mental relaxation. I also enjoy interior design, and in my free time, I love creating new ideas to make my room more beautiful and organized.
+  </p>
+
+  <p className='font-normal text-lg'>
+    I am slightly introverted, and it takes me some time to adapt to a new environment.
+  </p>
+
+</div>
 
 
-<p>I am an ambitious and passionate aspiring Full Stack Developer who is committed to continuously learning and growing in the ever-evolving world of technology. My journey began with a fascination for how websites and applications work, which led me to focus on mastering frontend development — creating clean, interactive, and visually appealing user experiences. Once I have solidified my expertise in frontend technologies, my next goal is to dive deep into backend development, enabling me to build powerful, secure, and scalable full-stack applications from start to finish.
-
-In addition to web development, I am determined to build a strong foundation in computer science fundamentals, including data structures, algorithms, and problem-solving skills, as I believe these are the keys to becoming a truly versatile and efficient programmer. My programming journey will have a special focus on Python, a language I admire for its simplicity, versatility, and wide range of applications — from web development to data analysis and artificial intelligence.
-
-Beyond my technical ambitions, I have a deep curiosity for exploring innovative ideas and contributing to the knowledge base of the tech community. One of my long-term goals is to publish research papers that merge creativity with technical depth, making a meaningful impact in the field of computer science and technology.
-
-I am committed to lifelong learning, embracing challenges, and continuously improving my skills — not just to keep up with the industry, but to stay ahead and contribute something truly valuable. My journey as a developer is not just a career path, but a personal mission to create, innovate, and inspire.</p>
+       
       </section>
     </div>
   );

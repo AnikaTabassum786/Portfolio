@@ -6,6 +6,9 @@ import img from '../../assets/images/profile.jpeg'
 import resume from '../../assets/resume.pdf'
 import Skill from '../Skill/Skill';
 import Education from '../Education/Education';
+import Experience from '../Experience/Experience';
+import Project from '../Project/Project';
+import Publication from '../Publication/Publication';
 
 
 const Home = () => {
@@ -52,7 +55,9 @@ const Home = () => {
       <About></About>
       <Skill></Skill>
       <Education></Education>
-      
+      <Experience></Experience>
+      <Project></Project>
+      <Publication></Publication>
     </div>
   );
 };

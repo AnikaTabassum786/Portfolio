@@ -120,6 +120,30 @@ const Navbar = () => {
           Education
         </a>
       </li>
+      <li>
+        <a
+          href="#experience"
+          className={activeSection === "experience" ? "underline font-bold" : ""}
+        >
+          Experience
+        </a>
+      </li>
+      <li>
+        <a
+          href="#project"
+          className={activeSection === "project" ? "underline font-bold" : ""}
+        >
+          Projects
+        </a>
+      </li>
+      <li>
+        <a
+          href="#publish"
+          className={activeSection === "publish" ? "underline font-bold" : ""}
+        >
+          Publish
+        </a>
+      </li>
     </>
   );
 

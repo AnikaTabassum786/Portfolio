@@ -1,49 +1,4 @@
-// import React from 'react';
 
-// const Skill = () => {
-//     return (
-//         <section id="skill" className="min-h-screen flex items-center justify-center bg-green-00">
-
-//             <div className='flex flex-col gap-8'>
-
-//                 <div><p className='text-2xl font-medium text-center'>Skills That I  Have</p></div>
-
-//                 <div className='flex flex-col gap-3'>
-//                     <div className='text-lg font-medium'>Frontend</div>
-//                     <div className='flex gap-4'>
-//                         <img className='w-16 h-7' src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" />
-//                         <img className='w-14 h-7' src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" />
-//                         <img className='w-24 h-7' src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
-//                         <img className='w-18 h-7' src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" />
-//                         <img className='w-28 h-7' src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white" /></div>
-//                 </div>
-
-
-//                 <div className='flex flex-col gap-3'>
-//                     <div className='text-lg font-medium'>Backend</div>
-//                     <div className='flex gap-4'>
-//                         <img className='w-24 h-7' src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" />
-//                         <img className='w-24 h-7' src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white" />
-//                         <img className='w-24 h-7' src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" />
-//                     </div>
-//                 </div>
-
-//                 <div className='flex flex-col gap-3'>
-//                     <div className='text-lg font-medium'>Tools</div>
-//                     <div className='flex gap-4'>
-//                         <img className='w-20 h-7' src="https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white" />
-//                         <img className='w-16 h-7' src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" />
-//                         <img className='w-24 h-7' src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" />
-//                     </div>
-//                 </div>
-
-//             </div>
-
-//         </section>
-//     );
-// };
-
-// export default Skill;
 
 
 

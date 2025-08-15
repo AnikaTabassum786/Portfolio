@@ -1,36 +1,4 @@
-// import React from 'react';
 
-// const Experience = () => {
-//     return (
-//         <div>
-//             <section id="experience" className="min-h-screen flex items-center justify-center px-4 py-12">
-
-//                 <div>Experience</div>
-//                 <div>
-//                     <div>
-//                         <p>Teacher Assistant (TA)</p>
-//                         <p>Institution: American International University – Bangladesh (AIUB)</p>
-//                         <p>Duration: May 1, 2021- September 1, 2021</p>
-//                     </div>
-
-//                     <div>
-//                         <p>Intern(React,Frontend Developer)</p>
-//                         <p>Company: Kodeeo Limited</p>
-//                         <p>5th September to 30th December 2023</p>
-//                     </div>
-
-//                     <div>
-//                         <p>Trainee(Frontend Developer)</p>
-//                         <p>Company: ATI Limited</p>
-//                         <p>4th May to 31th December 2024</p>
-//                     </div>
-//                 </div>
-//             </section>
-//         </div>
-//     );
-// };
-
-// export default Experience;
 
 import React from 'react';
 // import { Briefcase } from 'lucide-react'; // Icon library (lucide-react)

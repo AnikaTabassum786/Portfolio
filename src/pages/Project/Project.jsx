@@ -32,7 +32,8 @@ const projects = [
 
 const Project = () => {
   return (
-    <section id="project" className="min-h-screen flex flex-col items-center justify-center px-4 py-12 ">
+   <>
+    {/* <section id="project" className="min-h-screen flex flex-col items-center justify-center bg-blue-50 px-4 py-12 ">
       <h2 className="text-3xl font-bold mb-8">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {projects.map((project, index) => (
@@ -49,7 +50,7 @@ const Project = () => {
               <h3 className="text-xl font-semibold">{project.name}</h3>
               <Link 
                 to={`/projects/${project.name}`} 
-                className="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 text-center"
+                className="mt-4 px-3 py-2 bg-gradient-to-r from-blue-300 to-blue-500 text-white rounded-lg shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300"
               >
                 View Details
               </Link>
@@ -57,7 +58,51 @@ const Project = () => {
           </div>
         ))}
       </div>
-    </section>
+    </section> */}
+
+    <section
+  id="project"
+  className="min-h-screen flex flex-col items-center justify-center bg-blue-50 px-4 py-12"
+>
+  {/* Heading */}
+  <h2 className="text-3xl md:text-4xl font-semibold text-blue-500 text-center mb-10">
+    My Projects
+  </h2>
+  {/* <div className="w-16 h-1 bg-blue-500 rounded-full mb-10"></div> */}
+
+  {/* Projects Grid */}
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full">
+    {projects.map((project, index) => (
+      <div
+        key={index}
+        className="bg-white/80 backdrop-blur-md rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+      >
+        {/* Project Image */}
+        <img
+          src={project.image}
+          alt={project.name}
+          className="w-full h-48 object-cover"
+        />
+
+        {/* Project Info */}
+        <div className="p-5 flex flex-col gap-3">
+          <h3 className="text-lg md:text-xl font-semibold text-gray-800">
+            {project.name}
+          </h3>
+
+          <Link
+            to={`/projects/${project.name}`}
+            className="mt-auto inline-block px-4 py-2 text-sm font-medium bg-gradient-to-r from-blue-400 to-blue-600 text-white rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300"
+          >
+            View Details
+          </Link>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+   </>
   );
 };
 

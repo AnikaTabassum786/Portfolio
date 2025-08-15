@@ -56,7 +56,7 @@ const ProjectDetails = () => {
     if (!project) return <p className="text-center mt-10">Project not found</p>;
 
     return (
-        <section className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4 py-12">
+        <section className="min-h-screen flex flex-col items-center justify-center bg-blue-50 px-4 py-12">
             <h2 className="text-3xl font-bold mb-6">{project.name}</h2>
             <p className="text-gray-700 mb-4">{project.description}</p>
             <p className="mb-4"><strong>Technology Stack:</strong> {project.technology}</p>
@@ -88,7 +88,7 @@ const ProjectDetails = () => {
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                    className="bg-blue-400 text-white px-4 py-2 rounded-lg hover:bg-blue-500"
                 >
                     Live Project
                 </a>
@@ -96,7 +96,7 @@ const ProjectDetails = () => {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-900"
+                    className="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-900"
                 >
                     GitHub
                 </a>
